@@ -1,0 +1,149 @@
+/* Navbar and First Page */
+@media (max-width: 992px){
+    .tejaspic-1{
+        visibility: collapse;
+    }
+    .navbar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container-1{
+       text-align: center;
+       padding-left: 0;
+    }
+    #first-section{
+        height: 610px
+    }
+    .nav-item{
+        text-align: center;
+    }
+}
+
+/* About Me section and My services (Combined)*/
+@media (max-width:1290px) {
+    #second-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .aboutme-row{
+        position: static;
+        justify-content: center;
+        
+    }
+    .column-1{
+        padding-left: 0;
+        width: auto;
+    }
+}
+
+@media (max-width: 837px) {
+    .column-2{
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .column-2 h4{
+        padding-top: 20px;
+    }
+    
+}
+/* My services section */
+@media (max-width: 1293px) {
+    
+    #third-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .service-row{
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .third-col{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .first-col{
+        padding-bottom: 20px;
+    }
+}
+
+/* My skills Section starts here */
+@media (max-width: 1201px) {
+    #fourth-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .third-row{
+        width: auto;
+        justify-content: center;
+        
+    }
+    .fourth-column{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .fifth-column{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+   
+/* Contact Me Section Starts Here */
+@media (max-width: 1300px){
+    #fifth-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Me Section and all section (used to avoid spreading)*/
+
+@media (min-width: 1536px) {
+    .aboutme-row{
+        width: 1158.400px;
+    }
+
+    .second-row{
+        width: 1117px;
+    }
+    .third-row{
+        width: 1119px;
+    }
+    .fourth-row{
+        width: 451px;
+    }
+    .msg-me-row{
+        width: 542px
+    }
+}
+

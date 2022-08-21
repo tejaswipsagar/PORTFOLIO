@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+}
+html{
+   scroll-behavior: smooth; 
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+}
+
+/* Navbar, First section, Main Home Pages starts here */
+#first-section{
+    background-color: black;
+    height: 524px;
+}
+
+.navbar{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+.navbar-brand-span{
+    color: crimson;
+}
+.navbar-brand:hover{
+    color: crimson;
+}
+/* This is used due to javascript file (Starts Here)*/
+.navbar.sticky{
+    background-color: crimson;
+    color: white;
+}
+/* This is used due to javascript file (Ends Here) */
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: crimson;
+    background-color: white;
+    border-radius: 30px;
+}
+.nav-item{
+    padding-left: 25px;
+}
+
+.container-1{
+    padding-left: 200px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.tejaspic-1{
+    position: absolute;
+    right: 0px;
+    top:50px;
+}
+.hire-me-button{
+    color: white;
+    background: crimson;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hire-me-button:hover{
+    color: crimson;
+    background: white;
+   
+}
+
+.container-1 h3{
+    margin-bottom: 20px;
+}
+
+/* Second section or about me section */
+#second-section{
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+#second-section h1{
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 28px;
+}
+#second-section h6{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: crimson;
+}
+.minus-adj{
+    position: relative;
+    top: 1.5px;
+}
+.minus-1{
+    position: relative;
+    left: 2px;
+}
+.minus-2{
+    position: relative;
+    right: 2px;
+}
+.tejas-pic2{
+    width: 15rem;
+    border-radius: 10px;
+}
+.aboutme-row{
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+    left: 110px
+}
+.download-button{
+    color: white;
+    background: crimson;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.download-button:hover{
+    color: crimson;
+    background: white;
+    border-color: crimson;
+   
+}
+
+.container-2{
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.column-1{
+    width: 324px;
+}
+.column-2{
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 0;
+    width: 573px;
+}
+
+/* Third Section/My services Section Starts Here */
+#third-section{
+    background-color: black;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+#third-section h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+#third-section h6{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: crimson;
+    padding-bottom: 50px;
+}
+
+.container-3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-row{
+    width: 1119px;
+}
+
+.card{
+    text-align: center;  
+    background-color: rgb(40, 38, 38); 
+    color: white; 
+    width: 300px;
+    border-radius: 40px;
+}
+.card:hover{
+    background-color: crimson;
+    color: white;
+    height: 300px;
+    padding-top: 22px;
+}
+.fa-3x{
+    padding-bottom: 20px;
+    color: crimson;
+}
+.card-effects{
+    align-items: center;
+    
+}
+
+.first-col{
+    padding-right: 20px;
+}
+.second-col{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.third-col{
+    padding-left: 20px;
+}
+
+
+/* my skills section */
+#fourth-section{
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#fourth-section h1{
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+}
+#fourth-section h6{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: crimson;
+    padding-bottom: 50px;
+}
+.container-4{
+    font-family: 'Poppins', sans-serif;
+
+}
+.third-row{
+    align-items: center;
+}
+.fifth-column{
+    text-align: center;
+}
+
+.fourth-column{
+    text-align: justify;
+}
+.fa-star{
+    color: crimson;
+}
+.fa-star-half-stroke{
+    color: crimson;
+}
+.fa-regular{
+    color: crimson;
+}
+
+/* Contact me section or fifth section */
+#fifth-section{
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+#fifth-section h1{
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 28px;
+}
+#fifth-section h6{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: crimson;
+    padding-bottom: 50px;
+}
+
+.container-5{
+    font-family: 'Poppins', sans-serif;
+}
+
+.sixth-column{
+    text-align: justify;
+    margin-right: 70px;
+}
+.fourth-row{
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    width: 475px;
+}
+
+.msg-me-row{
+    width: 80%;
+    justify-content: center;
+}
+
+.contact-icon-pad{
+    padding-left: 25px;
+    
+}
+.icon-part{
+    position: relative;
+    bottom: 8px;
+}
+.grey{
+    color: grey;
+}
+.name{
+    border-radius: 8px;
+
+}
+
+.email{
+    border-radius: 8px;
+}
+
+.msg{
+    padding-bottom: 50px;
+    border-radius: 8px;
+}
+.sub{
+    border-radius: 8px;    
+
+}
+.send-button{
+    color: white;
+    background: crimson;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.send-button:hover{
+    color: crimson;
+    background: white;
+    border-color: crimson;
+   
+}
+
+/* <!-- Footer Section/Copyright Section --> */
+#footer-section{
+    background-color: black;
+    padding-top: 20px;
+
+}
+
+#footer-section h4{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
